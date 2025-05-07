@@ -16,7 +16,7 @@ Task_Read_Expense_Receipt=ExpenseTasks.Task_Read_Expense_Receipt(file_path,Agent
 Task_Summarize_Expenses=ExpenseTasks.Task_Summarize_Expenses(Agent_Expenses_Categorizer)
 Task_Insert_Expenses=ExpenseTasks.Task_Insert_Expenses(Agent_Database)
 
-
+#kick of the crew
 crew=Crew(agents=[Agent_Expense_Receipt_Reader,Agent_Expenses_Categorizer,Agent_Database],tasks=[Task_Read_Expense_Receipt,Task_Summarize_Expenses,Task_Insert_Expenses],process=Process.sequential,share_crew=False)
 res=crew.kickoff()
 print(f"result is {res}")
