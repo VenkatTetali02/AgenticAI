@@ -5,4 +5,4 @@
 4. Final Amounts are then inserted into the sqlite database.
 5. Techstack used is Langchain,CrewAI,Python(PyPDF,Pillow,Tesseract libraries)
 6. Below is the Flowchart of the whole process
-   ![Process Flow](Flowchart.png)
+   ![Process Flow](ProcessFlow.png)
