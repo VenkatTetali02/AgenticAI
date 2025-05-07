@@ -6,3 +6,16 @@
 5. Techstack used is Langchain,CrewAI,Python(PyPDF,Pillow,Tesseract libraries)
 6. Below is the Flowchart of the whole process
    ![Process Flow](ProcessFlow.png)
+7. Sample JSON sent to database
+`{
+"emp_id": "12345",
+"Food": 1050,
+"Hotel": 750,
+"Travel": 0,
+"Other": 300,
+"Taxes": 67.5,
+"Fees": 0,
+"Liquor": 65,
+"Misc": 0,
+"Total_Amount": 2232.5
+}`
