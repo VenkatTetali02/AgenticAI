@@ -2,7 +2,7 @@ from Tasks import ExpenseReceiptTasks
 from Agents import ExpenseReceiptAgents
 from crewai import Crew,Process
 
-file_path=""Hotel_Receipt.pdf"
+file_path="Hotel_Receipt.pdf"
 
 #get the agents
 ExpenseAgents=ExpenseReceiptAgents()
